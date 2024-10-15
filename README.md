@@ -9,9 +9,8 @@ Basic reporting on detected WAFs.
 Installation
 Clone this repository to your local machine:
 
-bash
-Copy code
-git clone https://github.com/your_username/waf-hunter.git
+git clone https://github.com/your_username/waf-hunter.git](https://github.com/yealvarez/Extensions.git
+
 Open Chrome and navigate to chrome://extensions/.
 
 Enable "Developer mode" in the top right corner.
