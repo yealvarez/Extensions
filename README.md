@@ -8,7 +8,7 @@
         <li>Basic reporting on detected WAFs.</li>
 </ul>
 
-<code>git clone https://github.com/yealvarez/Extensions.git](https://github.com/yealvarez/WAF-Hunter.git</code>
+<code>git clone https://github.com/yealvarez/Extensions.git</code>
 
    <p>Then:</p>
     <ul>
