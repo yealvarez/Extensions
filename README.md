@@ -1,13 +1,12 @@
 <h1>WAF Hunter (Beta)</h1>
 WAF Hunter is a beta Chrome extension designed to identify some of the most well-known Web Application Firewalls (WAFs) on web applications. It aims to assist security researchers, developers, and IT professionals in recognizing the presence of WAFs and simplifying web security analysis.
 
-    <h2>Features</h2>
-    <ul>
-        <li>Identification of popular WAFs.</li>
+<h2>Features</h2>
+<ul>    <li>Identification of popular WAFs.</li>
         <li>Quick scan of visited websites.</li>
         <li>Visual indicator of WAF presence in the toolbar.</li>
         <li>Basic reporting on detected WAFs.</li>
-    </ul>
+</ul>
 
 <code>git clone https://github.com/yealvarez/Extensions.git</code>
 
