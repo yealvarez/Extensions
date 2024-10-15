@@ -1,36 +1,82 @@
-<h1>WAF Hunter (Beta)</h1>
-WAF Hunter is a beta Chrome extension designed to identify some of the most well-known Web Application Firewalls (WAFs) on web applications. It aims to assist security researchers, developers, and IT professionals in recognizing the presence of WAFs and simplifying web security analysis.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>README - WAF Hunter (Beta)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        code {
+            font-family: "Courier New", Courier, monospace;
+            color: #d63384;
+        }
+        ul {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
 
-Features
-Identification of popular WAFs.
-Quick scan of visited websites.
-Visual indicator of WAF presence in the toolbar.
-Basic reporting on detected WAFs.
-Installation
-Clone this repository to your local machine:
+    <h1>WAF Hunter (Beta)</h1>
 
-<code>git clone https://github.com/yealvarez/Extensions.git</code>
+    <p><strong>WAF Hunter</strong> is a beta Chrome extension designed to identify some of the most well-known Web Application Firewalls (WAFs) on web applications. It aims to assist security researchers, developers, and IT professionals in recognizing the presence of WAFs and simplifying web security analysis.</p>
 
-Open Chrome and navigate to chrome://extensions/.
+    <h2>Features</h2>
+    <ul>
+        <li>Identification of popular WAFs.</li>
+        <li>Quick scan of visited websites.</li>
+        <li>Visual indicator of WAF presence in the toolbar.</li>
+        <li>Basic reporting on detected WAFs.</li>
+    </ul>
 
-Enable "Developer mode" in the top right corner.
+    <h2>Installation</h2>
+    <p>Follow these steps to install WAF Hunter:</p>
+    <pre>
+        <code>
+git clone https://github.com/your_username/waf-hunter.git
+        </code>
+    </pre>
 
-Click "Load unpacked" and select the waf-hunter folder that you just cloned.
+    <p>Then:</p>
+    <ul>
+        <li>Open Chrome and navigate to <code>chrome://extensions/</code>.</li>
+        <li>Enable "Developer mode" in the top right corner.</li>
+        <li>Click "Load unpacked" and select the <code>waf-hunter</code> folder.</li>
+    </ul>
 
-Done! You should now see the WAF Hunter icon in your toolbar.
+    <h2>Usage</h2>
+    <p>How to use WAF Hunter:</p>
+    <ul>
+        <li>Browse to any website.</li>
+        <li>If a WAF is detected, the extension icon will change and display information about the identified WAF.</li>
+        <li>Click on the WAF Hunter icon in the toolbar for more details.</li>
+    </ul>
 
-Usage
-Browse to any website.
-If a WAF is detected, the extension icon will change and display information about the identified WAF.
-Click on the WAF Hunter icon in the toolbar for more details.
-Contributions
-If you'd like to contribute to this project, feel free to fork the repository and submit a pull request with your improvements or fixes.
+    <h2>Contributions</h2>
+    <p>If you'd like to contribute, feel free to fork the repository and submit a pull request with your improvements or fixes.</p>
 
-Roadmap
-Support for more WAFs.
-Improved accuracy of detection.
-Detailed report export.
-Integration with other web analysis tools.
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+    <h2>Roadmap</h2>
+    <ul>
+        <li>Support for more WAFs.</li>
+        <li>Improved accuracy of detection.</li>
+        <li>Detailed report export.</li>
+        <li>Integration with other web analysis tools.</li>
+    </ul>
 
+    <h2>License</h2>
+    <p>This project is licensed under the MIT License. See the <code>LICENSE</code> file for more details.</p>
+
+</body>
+</html>
