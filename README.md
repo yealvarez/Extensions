@@ -9,7 +9,7 @@ Basic reporting on detected WAFs.
 Installation
 Clone this repository to your local machine:
 
-git clone https://github.com/your_username/waf-hunter.git](https://github.com/yealvarez/Extensions.git
+<code>git clone https://github.com/yealvarez/Extensions.git</code>
 
 Open Chrome and navigate to chrome://extensions/.
 
